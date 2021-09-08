@@ -1,5 +1,5 @@
 package com.javalec.plus;
 
-public class Division {
+public class Plus {
 
 }
