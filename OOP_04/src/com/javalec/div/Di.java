@@ -13,13 +13,15 @@ public class Di {
 	// method
 	public double Division() {
 		double result = 0.0;
-		if (sSum != 0) {
+		
+		if (fSum != 0 & sSum != 0) {
 			result = (double) fSum / sSum;
+			return result;
 
-		} else if (sSum == 0.0) {
+		} else {
 			System.out.println("나누는 값이 0일수 없습니다.");
+			return result;
 		}
 		
-		return result;
 	}
 }
