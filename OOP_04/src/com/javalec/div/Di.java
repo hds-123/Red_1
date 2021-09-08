@@ -6,8 +6,14 @@ public class Di {
 	int sSum = 0;
 
 	// con
+<<<<<<< Updated upstream
 	public Di(int fSum, int sSum) {
 
+=======
+	public void Division1() {
+//		int i = 0;
+		
+>>>>>>> Stashed changes
 	}
 
 	// method
