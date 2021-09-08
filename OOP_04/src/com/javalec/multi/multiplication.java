@@ -14,7 +14,7 @@ public class multiplication {
 		this.sNum = sNum;
 	}
 	
-	//method
+	//method0
 	
 	public int multiplication(){
 		int result = fNum * sNum; //함수가 리턴해주려고 만든 값이다.
