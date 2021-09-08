@@ -2,6 +2,7 @@ package com.javalec.plus;
 
 public class Plus {
 
+<<<<<<< HEAD
 	// Field
 	int f_num = 0;
 	int s_num = 0;
@@ -37,3 +38,6 @@ public class Plus {
 	
 
 }// end //
+=======
+}
+>>>>>>> f160e451371288e82c67df64dce0da86cb5b0745
