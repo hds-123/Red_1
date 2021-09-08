@@ -1,6 +1,6 @@
 package com.javalec.base;
 
-public class Array_01 {
+public class Array_01 { //
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
