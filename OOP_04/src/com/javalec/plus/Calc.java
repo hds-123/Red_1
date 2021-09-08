@@ -1,4 +1,4 @@
-package com.javalec.func;
+package com.javalec.plus;
 
 public class Calc {
 
@@ -40,11 +40,11 @@ public class Calc {
 		return k;
 	}
 	
-//	public int Division() {
-//		double d = f_num / s_num;
-//		
-//		return
-//	}
+	public double Division() {
+		double d = (double) f_num / s_num;
+		
+		return d;
+	}
 	
 	
 	
