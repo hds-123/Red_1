@@ -1,6 +1,6 @@
 package com.javalec.multi;
 
-public class multiplication {
+public class Multiplication {
 
 	//field
 	int fNum = 0;
@@ -8,7 +8,7 @@ public class multiplication {
 	
 	//constructor
 	
-	public multiplication(int fNum, int sNum) {
+	public Multiplication(int fNum, int sNum) {
 		super();
 		this.fNum = fNum;
 		this.sNum = sNum;
@@ -16,7 +16,7 @@ public class multiplication {
 	
 	//method0
 	
-	public int multiplication(){
+	public int MULtiplication(){
 		int result = fNum * sNum; //함수가 리턴해주려고 만든 값이다.
 		return result;
 	}

@@ -2,7 +2,9 @@ package com.javalec.base;
 
 import java.util.Scanner;
 
+import com.javalec.div.Di;
 import com.javalec.minus.Minus;
+import com.javalec.multi.Multiplication;
 import com.javalec.plus.Calc;
 
 public class MainClass {
@@ -23,18 +25,19 @@ public class MainClass {
 		Calc calc = new Calc(firstNum, secondNum);
 		
 		Minus minus = new Minus(firstNum, secondNum);
-		
+		Multiplication multiplication = new Multiplication(firstNum, secondNum);
+		Di di = new Di(firstNum, secondNum);
 		
 		System.out.println(">>>>>> 결과 <<<<<<");
 //		int plus_num = calc.Plus(); // 덧셈
 		int Minus_num = minus.Minus_n(); // 뺄셈
-//		int multi_num = calc.Multiplication(); // 곱셈
-//		double div_num = calc.Division(); // 나눗셈
+		int multi_num = multiplication.MULtiplication(); // 곱셈
+		double div_num = di.Division(); // 나눗셈
 		
 //		System.out.println("덧셈 : " + plus_num);
 		System.out.println("뺄셈 : " + Minus_num);
-//		System.out.println("곱셈 : " + multi_num);
-//		System.out.println("나눗셈 : " + div_num); 
+		System.out.println("곱셈 : " + multi_num);
+		System.out.println("나눗셈 : " + div_num); 
 
 	}
 
