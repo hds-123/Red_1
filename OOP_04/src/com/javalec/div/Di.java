@@ -4,30 +4,24 @@ public class Di {
 	// filed
 	int fSum = 0;
 	int sSum = 0;
+	double result = 0.0;
 
 	// con
-<<<<<<< Updated upstream
-	public Di(int fSum, int sSum) {
+//	public Di(int fSum, int sSum) {
+//
+//	}
 
-=======
-	public void Division1() {
-//		int i = 0;
-		
->>>>>>> Stashed changes
+	public Di(int fSum, int sSum, double result) {
+		super();
+		this.fSum = fSum;
+		this.sSum = sSum;
+		this.result = result;
 	}
 
 	// method
 	public double Division() {
-		double result = 0.0;
-		
-		if (fSum != 0 & sSum != 0) {
-			result = (double) fSum / sSum;
-			return result;
-
-		} else {
-			System.out.println("나누는 값이 0일수 없습니다.");
-			return result;
-		}
-		
-	}
+//		double result = 0.0;
+		result = (double) fSum / sSum;
+		return result;
+	} 
 }

@@ -16,6 +16,7 @@ public class MainClass {
 		Scanner scanner = new Scanner(System.in);
 		int firstNum = 0;
 		int secondNum = 0;
+		double result = 0.0;
 		
 		System.out.println("첫번째 숫자를 입력하세요 : ");
 		firstNum = scanner.nextInt();
@@ -26,7 +27,7 @@ public class MainClass {
 		Plus plus = new Plus(firstNum, secondNum);
 		Minus minus = new Minus(firstNum, secondNum);
 		Multiplication multiplication = new Multiplication(firstNum, secondNum);
-		Di di = new Di(firstNum, secondNum);
+		Di di = new Di(firstNum, secondNum, result);
 		
 		System.out.println(">>>>>> 결과 <<<<<<");
 		int plus_num = plus.Plus(); // 덧셈
