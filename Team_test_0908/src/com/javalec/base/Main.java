@@ -1,13 +1,12 @@
 package src.com.javalec.base;
 
-import com.sun.java_cup.internal.runtime.Scanner;
-import com.sun.org.apache.xpath.internal.operations.Plus;
+import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		java.util.Scanner sc = new java.util.Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		int num1 = 0;
 		int num2 = 0;
 		int num3 = 0;
