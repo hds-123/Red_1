@@ -6,7 +6,10 @@ public class Di {
 	int sSum = 0;
 
 	// con
-
+	public void Division1() {
+		int i = 0;
+		
+	}
 	// method
 	public double Division() {
 		double result = 0.0;
