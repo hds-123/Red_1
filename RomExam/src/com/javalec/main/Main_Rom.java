@@ -7,26 +7,22 @@ public class Main_Rom {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		// 3°³ÀÇ Á¤¼ö¸¦ ÀÔ·Â¹Ş¾Æ °ö¼ÀÀ» ÇÏ°í, °ö¼ÀÇÑ ¼ıÀÚ°¡
-		// È¦¼öÀÎÁö Â¦¼öÀÎÁö Ãâ·ÂÇØº¸½ÃÁö!!!
+		// 3ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥ë°›ì•„ ê³±ì…ˆì„ í•˜ê³ , ê³±ì…ˆí•œ ìˆ«ìê°€ ì§ìˆ˜ì¸ì§€ í™€ìˆ˜ì¸ì§€ íŒë‹¨í•´ë³´ê¸°
 		
-		int[] nums = new int[3]; //»ç¿ëÀÚ°¡ ÀÔ·ÂÇÑ ¼ıÀÚµé
-		int numbers = 0; // ¼ıÀÚ 3°³ÀÇ °ö¼À°ª.
+		
+		int[] nums = new int[3]; 
+		int numbers = 0; 
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println(nums[i] + "¹øÂ° ¼ıÀÚ ÀÔ·ÂÇØº¸½ÃÁö!: ");
+		System.out.println(nums[i] + "ï¿½ï¿½Â° ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Øºï¿½ï¿½ï¿½ï¿½ï¿½!: ");
 		nums[i] = scanner.nextInt();
 		
 		MultiCalc multicalc = MultiCalc(numbers);
 		multicalc.MultiCalc();
-		// Ãâ·Â¸Ş½ÃÁö = ÀÔ·ÂÇÏ½Å ¼ıÀÚÀÇ °á°ú°ªÀº "°á°ú°ª"ÀÔ´Ï´Ù.
-		// ±èÀç¿øÄï, ÀÛ¾÷ÇÏ½Ã±æ ¹Ù¶÷´Ù.
-		// ÀÌ·¸°Ô ÇÏ¸é ³ª¿À´Â Áö ¸ğ¸£°ÚÀ½. Àç¿øÄïÀÌ ÇØº¸°í ÇØ°á¹æ¾È ¸»ÇØÁÖ¸é ¼öÁ¤ÇÏ°ÚÀ½.
 		
 		MulEvenOdd mulevenodd = MulEvenOdd(int result);
 		mulevenodd.MulEvenOdd();
-		// Ãâ·Â¸Ş½ÃÁö = ÀÔ·ÂÇÏ½Å ¼ıÀÚÀÇ °á°ú°ªÀº "result" ÀÔ´Ï´Ù.
-		// ´Ù¼ØÆÀÀå´Ô!^^ Á¦°¡ ºÎÁ·ÇØ¼­.. ÇÑ¹ø º¸½Ã°í ÇÇµå¹é ÁÖ½Ã¸é ¼öÁ¤ÇÏ°ÚÀ½´Ù!
+		
 	}
 
 }
