@@ -11,7 +11,7 @@ public class Main_Rom {
 		// 홀수인지 짝수인지 출력해보시지!!!
 		
 		int[] nums = new int[3]; //사용자가 입력한 숫자들
-		int numbers = 0; // 숫자 3개의 곱셈값
+		int numbers = 0; // 숫자 3개의 곱셈값.
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println(nums[i] + "번째 숫자 입력해보시지!: ");
