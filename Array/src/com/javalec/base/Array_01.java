@@ -23,8 +23,8 @@ public class Array_01 { //
 		str[5] = "Friday" ;
 		str[6] = "Saturday" ; // 주말
 		
-//		System.out.println(str.length); // str의 길이
-//		System.out.println(str[6]);
+		System.out.println(str.length); // str의 길이
+		System.out.println(str[6]);
 		
 //		for (int i = 0; i < str.length; i++) {
 //			System.out.println("str[" + i + "]=" + str[i]);
