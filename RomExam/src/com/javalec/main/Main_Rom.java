@@ -3,6 +3,7 @@ package com.javalec.main;
 import java.util.Scanner;
 
 import com.javalec.function.MultiCalc;
+import com.javalec.function.MultiCalc2;
 
 public class Main_Rom {
 
@@ -29,6 +30,7 @@ public class Main_Rom {
 		
 		MultiCalc mul = new MultiCalc(number01,number02,number03);
 	
+		MultiCalc2 mul2 = new MultiCalc2(number01, number02);
 		
 //		MulEvenOdd mulevenodd = MulEvenOdd(int result);
 //		mulevenodd.MulEvenOdd();

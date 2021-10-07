@@ -6,7 +6,7 @@ public class Plus {
 	int y_num=0;
 	int z_num=0;
 	
-	public Plus(int x_num,int y_num, int z_num) {
+	public	Plus(int x_num,int y_num, int z_num) {
 		super();
 		this.x_num=x_num;
 		this.y_num=y_num;
